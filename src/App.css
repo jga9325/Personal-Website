@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+/*********************** MENU LINKS **********************/
+
+/* COLOR OF MENU LINKS */
+.nav-link, .navbar-brand{
+  color: #fff !important;
+}
+
+.nav-link {
+  margin-left: 12px;
+  margin-right: 12px;
+}
