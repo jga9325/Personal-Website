@@ -40,8 +40,8 @@ const Projects = () => {
                         <h1 className='project-headings lower'>Laser Puzzle</h1>
                         <VideoPlayer 
                             src={laserVideo}
-                            width='700px'
-                            height='290px'
+                            width='600px'
+                            height='250px'
                             controls='true'
                             poster={laserThumbnail}
                         />
@@ -81,8 +81,8 @@ const Projects = () => {
                         <h1 className='project-headings'>Web Checkers</h1>
                         <VideoPlayer 
                             src={checkersVideo}
-                            width='700px'
-                            height='330px'
+                            width='600px'
+                            height='285px'
                             controls='true'
                             poster={checkersThumbnail}
                         />

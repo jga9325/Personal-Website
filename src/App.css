@@ -47,7 +47,7 @@
 .nav-link {
   margin-left: 15px;
   margin-right: 15px;
-  font-size: 20px;
+  /*font-size: 20px;*/
 }
 
 .navbar-nav {
@@ -66,7 +66,7 @@
 background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 height: 100vh;
-max-height: 879px;/*665*/
+max-height: 697px;/*665*/
 }
 
 .banner {
@@ -79,13 +79,13 @@ max-height: 879px;/*665*/
   color: white;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .avatar-image {
-  height: 350px;
+  height: 280px;
   padding-top: 50px;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
 }
 
 .my-name {
@@ -106,12 +106,12 @@ max-height: 879px;/*665*/
 }
 
 .banner p {
-  font-size: 20px;
+  /*font-size: 20px;*/
 }
 
 .btn.btn-danger {
-  width: 150px;
-  height: 50px;
+  width: 130px;
+  height: 45px;
   font-size: 20px;
 }
 /*********** NAVBAR COLOR*************/
@@ -125,7 +125,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 /******************** About Me Page*********************/
 
 .card {
-  width: 300px;
+  width: 250px;
   margin-top: 15px;
 }
 
@@ -134,7 +134,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .soccer-img {
-  width: 550px;
+  width: 410px;
   margin-top: 15px;
 }
 
@@ -148,21 +148,16 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .garden-img {
-  width: 550px;/*475*/
+  width: 410px;/*475*/
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.rit-logo {
+/*.rit-logo {
   width: 275px;
   margin-left: auto;
   margin-right: auto;
-  
-}
-
-.text-box p {
-  font-size: 20px;
-}
+}*/
 
 /********************* Skills Page ***********************/
 
@@ -171,7 +166,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
   background-color: black;
   color: white;
   opacity: .8;
-  width: 700px;
+  width: 500px;
   margin: auto;
   height: 100px;
   border-radius: 20px;
@@ -186,7 +181,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .skill-image {
-  width: 200px;
+  width: 160px;
   padding-bottom: 10px;
 }
 
@@ -205,8 +200,8 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .python {
-  width: 250px;
-  padding-top: 62px;
+  width: 180px;
+  padding-top: 61px;
 }
 
 .java {
@@ -214,7 +209,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .js {
-  padding-top: 10px;
+  padding-top: 14px;
 }
 
 .elements {
@@ -222,8 +217,8 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .html {
-  width: 120px;
-  padding-top: 7px;
+  width: 100px;
+  padding-top: 4px;
 }
 
 .python-skill {
@@ -239,7 +234,6 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
   background: #FC466B;
 background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);
 background: linear-gradient(to left, #3F5EFB, #FC466B);
-height: 1300px;
 }
 
 .all-skills {
@@ -247,33 +241,34 @@ height: 1300px;
   background-size: 1400px 800px;
   border-radius: 50px;
   border: 3px solid black;
-  width: 1300px;
+  width: 1100px;
   margin: auto;
 }
 
 .skill-image.css {
-  width: 100px;
+  width: 70px;
+  padding-top: 16px;
 }
 
 .skill-image.react {
-  width: 250px;
+  width: 170px;
 }
 
 .skill-image.react {
-  padding-top: 21px;
+  padding-top: 35px;
 }
 
 .skill-image.sql {
-  padding-top: 32px;
+  padding-top: 31px;
 }
 
 .skill-image.c {
-  width: 120px;
+  width: 100px;
   padding-top: 15px;
 }
 
 .skill-image.ide {
-  width: 170px;
+  width: 150px;
   padding-bottom: 0;
   padding-top: 0;
   margin-top: 0;
@@ -284,11 +279,18 @@ height: 1300px;
 }
 
 .skill-image.git {
-  padding-top: 53px;
+  padding-top: 62px;
+  width: 140px;
 }
 
 .skill-image.postgres {
   padding-top: 42px;
+  width: 170px;
+}
+
+.skill-image.bootstrap {
+  width: 140px;
+  padding-top: 23px;
 }
 
 .personal-skills-title {
@@ -296,7 +298,7 @@ height: 1300px;
   background-color: black;
   color: white;
   opacity: .8;
-  width: 700px;
+  width: 500px;
   margin: auto;
   height: 100px;
   border-radius: 20px;
@@ -310,8 +312,12 @@ height: 1300px;
   background-size: 1400px 800px;
   border-radius: 50px;
   border: 3px solid black;
-  width: 1300px;
+  width: 1100px;
   margin: auto;
+}
+
+.personal-skills-container {
+  padding-bottom: 50px;
 }
 
 .personal-skills {
@@ -319,22 +325,26 @@ height: 1300px;
 }
 
 .personal-image {
-  width: 100px;
+  width: 80px;
   padding-top: 10px;
 }
 
 .personal-image.quick-learner {
-  width: 150px;
+  width: 140px;
   padding-top: 66px;
 }
 
 .personal-image.problem-solving {
-  padding-top: 20px;
+  padding-top: 38px;
 }
 
 .personal-image.communication {
-  width: 138px;
-  margin-top: 33px;
+  width: 128px;
+  margin-top: 34px;
+}
+
+.personal-image.leadership {
+  padding-top: 31px;
 }
 
 /***************************Project Page**************************/
@@ -343,7 +353,6 @@ height: 1300px;
   background: #FC466B;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #3F5EFB, #FC466B);
-/*height: 800px;*/
 }
 
 .projects-title {
@@ -351,7 +360,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
   background-color: black;
   color: white;
   opacity: .8;
-  width: 700px;
+  width: 500px;
   margin: auto;
   height: 100px;
   border-radius: 20px;
@@ -366,7 +375,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
 }
 
 .project-pic {
-  width: 700px;
+  width: 600px;
   border: 3px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -393,7 +402,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
 .project-descriptions {
   color: white;
   text-align: center;
-  width: 700px;
+  width: 600px;
   border: 2px solid white;
   margin-top: 20px !important;
   padding-top: 5px;
@@ -401,6 +410,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
   margin: auto;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 15px;
 }
 
 .project-descriptions.last {
@@ -415,3 +425,10 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
   margin-bottom: 20px !important;
 }
 
+.contact-page {
+  background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3F5EFB, #FC466B);
+height: 100vh;
+max-height: 665px;
+}

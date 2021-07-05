@@ -25,7 +25,6 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <img src='https://www.freelogovectors.net/wp-content/uploads/2021/05/rit_tigers_logo-freelogovectors.net_.png' className='rit-logo' alt='rit logo'/>
                 </div>
                 <div class='col'>
                     <div className='text-box'>
