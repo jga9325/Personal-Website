@@ -1,6 +1,7 @@
 import React from 'react';
 import image from "../Profile Pic.jpeg";
 import gardenImage from "../garden.jpeg";
+import teamPic from "../Soccer Team Picture.jpeg";
 
 const About = () => {
     return (
@@ -70,7 +71,7 @@ const About = () => {
                 <div class='right-col col-md-auto'>
                     <div>
                     <div class='soccer-img figure'>
-                        <img src='https://www.nicktorcello.com/static/media/soccerteam.820cbb47.jpg' class='figure-img img-fluid rounded border border-dark border-4' alt='soccer team'></img>
+                        <img src={teamPic} class='figure-img img-fluid rounded border border-dark border-4' alt='soccer team'></img>
                         <div class='figure-caption'>
                             I am entering my third year with the RIT Men's Club Soccer Team.
                             In addition to playing, I also serve on the executive board in order
