@@ -363,11 +363,15 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
   padding-bottom: 60px;
 }
 
-.project-pic.website-pic {
+.project-pic {
   width: 700px;
   border: 3px solid black;
   margin-left: auto;
   margin-right: auto;
+}
+
+.project-pic.lower {
+  margin-top: 20px;
 }
 
 .video-js {
@@ -393,6 +397,19 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
   padding-top: 5px;
   border-radius: 20px;
   margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
+.project-descriptions.last {
+  margin-bottom: 50px;
+}
+
+.refactoring-separator {
+  width: 300px;
+  color: white;
+  margin: auto;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
 
