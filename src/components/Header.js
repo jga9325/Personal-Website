@@ -27,6 +27,11 @@ const Header = () => {
             paddingTop: '50px'
         },
 
+        avatarImageMobile: {
+            width: '251px',
+            paddingTop: '10px'
+        },
+
         banner: {
             backgroundColor: 'black',
             opacity: .8,
@@ -114,24 +119,24 @@ const Header = () => {
             :
             <div>
                 <div className="main-info" style={styles.mainInfo}>
-                <div className='header-container'>
-                    <img
-                        src={avatarImage}
-                        alt="avatar"
-                        className="avatar-image"
-                        style={styles.avatarImage}
-                    />
-                    <div className="banner" style={styles.bannerMobile}>
-                        <h1 className="my-name" style={styles.bannerH1, styles.myName}>Jacob Auger</h1>
-                        <h1 className="major" style={styles.bannerH1, styles.major}>Software Engineering Student</h1>
-                        <hr className='header-horizontal-line' style={styles.bannerHr}/>
-                        <p>
-                            Welcome to my personal website! Feel free to browse the site to learn more about my background, projects, and skills. If you have any questions, don't hesitate to contact me.
-                        </p>
-                        <Link class="btn btn-danger" to="/contactme" style={styles.btnDanger}>Contact Me</Link>
+                    <div className='header-container'>
+                        <img
+                            src={avatarImage}
+                            alt="avatar"
+                            className="avatar-image"
+                            style={styles.avatarImageMobile}
+                        />
+                        <div className="banner" style={styles.bannerMobile}>
+                            <h1 className="my-name" style={styles.bannerH1, styles.myName}>Jacob Auger</h1>
+                            <h1 className="major" style={styles.bannerH1, styles.major}>Software Engineering Student</h1>
+                            <hr className='header-horizontal-line' style={styles.bannerHr}/>
+                            <p>
+                                Welcome to my personal website! Feel free to browse the site to learn more about my background, projects, and skills. If you have any questions, don't hesitate to contact me.
+                            </p>
+                            <Link class="btn btn-danger" to="/contactme" style={styles.btnDanger}>Contact Me</Link>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
             }       
         </div>
