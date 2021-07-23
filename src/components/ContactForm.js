@@ -36,7 +36,8 @@ export default function ContactForm() {
 
       contactForm: {
         textAlign: 'center',
-        margin: 'auto'
+        margin: 'auto',
+        marginBottom: '26px'
       },
       
     inputRow: {

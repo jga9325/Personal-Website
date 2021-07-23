@@ -96,3 +96,11 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
 background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #3F5EFB, #FC466B);
 }
+
+/***********************Contact Page******************/
+
+.contact-page {
+  background: #FC466B;  
+background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B); 
+background: linear-gradient(to left, #3F5EFB, #FC466B);
+}
