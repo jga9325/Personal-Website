@@ -53,7 +53,6 @@ const Contact = () => {
             border: '2px solid black',
             fontSize: '20px',
             fontWeight: 'bold',
-            marginBottom: '59px'
           },
           
         contactTitle: {
@@ -63,11 +62,11 @@ const Contact = () => {
             opacity: .8,
             width: '500px',
             margin: 'auto',
-            height: '100px',
             borderRadius: '20px',
-            paddingTop: '20px',
+            paddingTop: '10px',
             fontWeight: 'bold',
-            border: '3px solid #6495ED'
+            border: '3px solid #6495ED',
+            paddingBottom: '10px'
           },
 
           contactTitleMobile: {
@@ -77,15 +76,20 @@ const Contact = () => {
             opacity: .8,
             width: '95%',
             margin: 'auto',
-            height: '100px',
             borderRadius: '20px',
-            paddingTop: '20px',
+            paddingTop: '10px',
             fontWeight: 'bold',
-            border: '3px solid #6495ED'
+            border: '3px solid #6495ED',
+            paddingBottom: '10px'
           },
           
         contactHeader: {
             paddingTop: '30px',
+            paddingBottom: '60px'
+          },
+
+          contactHeaderMobile: {
+            paddingTop: '10px',
             paddingBottom: '60px'
           },
           
@@ -130,7 +134,10 @@ const Contact = () => {
           contactInfoTextMobile: {
             color: 'white',
             width: '95%',
-            margin: 'auto'
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            marginTop: '20px'
+    
           },
           
         modalTitle: {
@@ -192,7 +199,7 @@ const Contact = () => {
             :
             <div class='contact-page'>
                 <div class='container-fluid contact-container'>
-                    <div class='contact-header' style={styles.contactHeader}>
+                    <div class='contact-header' style={styles.contactHeaderMobile}>
                         <h1 class='contact-title' style={styles.contactTitleMobile}>Contact Me</h1>
                     </div>
                     <div class='row'>

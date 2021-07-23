@@ -45,11 +45,11 @@ const Skills = () => {
             opacity: .8,
             width: '500px',
             margin: 'auto',
-            height: '100px',
             borderRadius: '20px',
-            paddingTop: '20px',
+            paddingTop: '10px',
             fontWeight: 'bold',
-            border: '3px solid #6495ED'
+            border: '3px solid #6495ED',
+            paddingBottom: '10px'
           },
 
           skillsTitleMobile: {
@@ -68,6 +68,11 @@ const Skills = () => {
           
           technicalSkills: {
             paddingTop: '30px',
+            paddingBottom: '40px'
+          },
+
+          technicalSkillsMobile: {
+            paddingTop: '10px',
             paddingBottom: '40px'
           },
           
@@ -257,11 +262,11 @@ const Skills = () => {
             opacity: .8,
             width: '500px',
             margin: 'auto',
-            height: '100px',
             borderRadius: '20px',
-            paddingTop: '20px',
+            paddingTop: '10px',
             fontWeight: 'bold',
-            border: '3px solid #6495ED'
+            border: '3px solid #6495ED',
+            paddingBottom: '10px'
           },
 
           personalSkillsTitleMobile: {
@@ -559,12 +564,6 @@ const Skills = () => {
                                         alt='star'
                                         style={styles.star}
                                     />
-                                    <img
-                                        className='star'
-                                        src={starImage}
-                                        alt='star'
-                                        style={styles.star}
-                                    />
                                 </div>
                                 </div>
                             </div>
@@ -811,7 +810,7 @@ const Skills = () => {
             </div>
             :
             <div>
-                <div className='technical-skills' style={styles.technicalSkills}>
+                <div className='technical-skills' style={styles.technicalSkillsMobile}>
                     <h1 class='skills-title' style={styles.skillsTitleMobile}>Technical Skills</h1>
                 </div>
                 <div class='skills-container container-fluid' style={styles.skillsContainer}>
@@ -992,12 +991,6 @@ const Skills = () => {
                                 style={styles.skillImageReactMobile}
                                 />
                                 <div>
-                                    <img
-                                        className='star'
-                                        src={starImage}
-                                        alt='star'
-                                        style={styles.starMobile}
-                                    />
                                     <img
                                         className='star'
                                         src={starImage}

@@ -25,7 +25,7 @@ const About = () => {
     const styles = {
         card: {
             width: '250px',
-            marginTop: '15px',
+            marginTop: '10px',
             border: '3px solid black',
             marginLeft: 'auto',
             marginRight: 'auto'

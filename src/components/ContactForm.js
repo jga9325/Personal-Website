@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import emailjs from 'emailjs-com';
-//import $ from 'jquery';
 
 export default function ContactForm() {
 
@@ -85,7 +84,11 @@ export default function ContactForm() {
       },
 
       modalTitle: {
-        margin: 'auto'
+        marginLeft: '112px'
+      },
+
+      modalTitleMobile: {
+        marginLeft: '40px'
       },
     }
 
@@ -129,7 +132,7 @@ export default function ContactForm() {
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" style={styles.modalTitle} id="successModalLabel">Message Sent Successfully</h5>
+                    <h5 class="modal-title" style={styles.modalTitleMobile} id="successModalLabel">Message Sent Successfully</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>

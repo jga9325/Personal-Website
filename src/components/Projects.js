@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import VideoPlayer from 'react-video-js-player';
 import websiteImage from '../Portfolio Website Picture.jpg';
 import checkersVideo from '../Compressed Checkers Video.mp4';
 import checkersThumbnail from '../Final Checkers Thumbnail.jpg';
@@ -40,11 +39,11 @@ const Projects = () => {
             opacity: .8,
             width: '500px',
             margin: 'auto',
-            height: '100px',
             borderRadius: '20px',
-            paddingTop: '20px',
+            paddingTop: '10px',
             fontWeight: 'bold',
-            border: '3px solid #6495ED'
+            border: '3px solid #6495ED',
+            paddingBottom: '10px'
           },
 
           projectsTitleMobile: {
@@ -54,15 +53,20 @@ const Projects = () => {
             opacity: .8,
             width: '95%',
             margin: 'auto',
-            height: '100px',
             borderRadius: '20px',
-            paddingTop: '20px',
+            paddingTop: '10px',
             fontWeight: 'bold',
-            border: '3px solid #6495ED'
+            border: '3px solid #6495ED',
+            paddingBottom: '10px'
           },
           
         projectsHeader: {
             paddingTop: '30px',
+            paddingBottom: '60px'
+          },
+
+          projectsHeaderMobile: {
+            paddingTop: '10px',
             paddingBottom: '60px'
           },
           
@@ -357,7 +361,7 @@ const Projects = () => {
             </div>
             :
             <div class='project-page'>
-                <div class='projects-header' style={styles.projectsHeader}>
+                <div class='projects-header' style={styles.projectsHeaderMobile}>
                     <h1 class='projects-title' style={styles.projectsTitleMobile}>Projects</h1>
                 </div>
                 <div class='container-fluid projects-container'>
