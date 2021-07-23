@@ -1,4 +1,22 @@
 import React from 'react';
+import starImage from '../Star.png';
+import javaImage from '../Java.png';
+import pythonImage from '../Python.png';
+import jsImage from '../JavaScript.png';
+import htmlImage from '../HTML.png';
+import cImage from '../C.png';
+import reactImage from '../React.png';
+import cssImage from '../CSS.png';
+import sqlImage from '../SQL.png';
+import postgresImage from '../Postgres.png';
+import gitImage from '../Git.png';
+import bootstrapImage from '../Bootstrap.png';
+import pycharmImage from '../PyCharm.png';
+import vsCodeImage from '../VSCode.png';
+import intelliJImage from '../IntelliJ.png';
+import lightBulbImage from '../LightBulb.png';
+import commImage from '../Communication.png';
+import bookImage from '../Book.png';
 
 const Skills = () => {
     return (
@@ -13,28 +31,28 @@ const Skills = () => {
                             <div class='java-skill'>
                             <img
                                 className='skill-image java'
-                                src='https://miro.medium.com/max/8642/1*iIXOmGDzrtTJmdwbn7cGMw.png'
+                                src={javaImage}
                                 alt='Java'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -44,28 +62,28 @@ const Skills = () => {
                             <div class='python-skill'>
                             <img
                             className='skill-image python'
-                            src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/2560px-Python_logo_and_wordmark.svg.png'
+                            src={pythonImage}
                             alt='Python'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -75,23 +93,23 @@ const Skills = () => {
                             <div class='html-skill'>
                             <img
                             className='skill-image html'
-                            src='https://sdtimes.com/wp-content/uploads/2016/08/HTML5_logo_and_wordmark.svg_.png'
+                            src={htmlImage}
                             alt='HTML/CSS'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -101,23 +119,23 @@ const Skills = () => {
                             <div class='js-skill'>
                             <img
                             className='skill-image js'
-                            src='https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png'
+                            src={jsImage}
                             alt='JavaScript'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -129,23 +147,23 @@ const Skills = () => {
                             <div class='css-skill'>
                             <img
                                 className='skill-image css'
-                                src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'
+                                src={cssImage}
                                 alt='CSS'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -155,28 +173,28 @@ const Skills = () => {
                             <div class='react-skill'>
                             <img
                             className='skill-image react'
-                            src='https://wpintegrate.com/wp-content/uploads/2017/07/react-logo.png'
+                            src={reactImage}
                             alt='React'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -186,23 +204,23 @@ const Skills = () => {
                             <div class='sql-skill'>
                             <img
                             className='skill-image sql'
-                            src='https://www.collectivepoint.com/portals/2/sql%20logo.png'
+                            src={sqlImage}
                             alt='SQL'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -212,18 +230,18 @@ const Skills = () => {
                             <div class='c-skill'>
                             <img
                             className='skill-image c'
-                            src='http://4.bp.blogspot.com/-rtRaLYcAB3o/VjxIPrQEBhI/AAAAAAAAAEE/tx4M9sMPqjw/s415/unnamed.png'
+                            src={cImage}
                             alt='C'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -235,23 +253,23 @@ const Skills = () => {
                             <div class='bootstrap-skill'>
                             <img
                                 className='skill-image bootstrap'
-                                src='https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png'
+                                src={bootstrapImage}
                                 alt='Bootstrap'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -261,28 +279,28 @@ const Skills = () => {
                             <div class='git-skill'>
                             <img
                             className='skill-image git'
-                            src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png'
+                            src={gitImage}
                             alt='Git'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -292,18 +310,18 @@ const Skills = () => {
                             <div class='postgres-skill'>
                             <img
                             className='skill-image postgres'
-                            src='https://devinstechblog.com/wp-content/uploads/2016/08/postgresql-logo.png'
+                            src={postgresImage}
                             alt='Postgres'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -312,38 +330,38 @@ const Skills = () => {
                         <div class='col'>
                             <img
                             className='skill-image ide'
-                            src='https://financesonline.com/uploads/2019/08/PyCharm_Logo1.png'
+                            src={pycharmImage}
                             alt='IDE'
                             />
                             <img
                             className='skill-image ide'
-                            src='https://hownot2code.files.wordpress.com/2019/01/intellij-519-d4ff21c469.png'
+                            src={intelliJImage}
                             alt='IDE'
                             />
                             <img
                             className='skill-image ide'
-                            src='https://res.cloudinary.com/practicaldev/image/fetch/s--P5gP5R8M--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/9kjrhvnkwd0hmuoxfvgy.png'
+                            src={vsCodeImage}
                             alt='IDE'
                             />
                             <div>
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                                 <img
                                     className='star'
-                                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Star_full.svg/1200px-Star_full.svg.png'
+                                    src={starImage}
                                     alt='star'
                                 />
                             </div>
@@ -368,7 +386,7 @@ const Skills = () => {
                         <div class='col'>
                             <img
                                 className='personal-image problem-solving'
-                                src='https://img.pngio.com/lightbulb-clipart-transparent-3-clipart-station-lightbulb-clipart-transparent-2368_2800.png'
+                                src={lightBulbImage}
                                 alt='Problem Solving'
                             />
                             <h4>Problem Solving</h4>
@@ -376,7 +394,7 @@ const Skills = () => {
                         <div class='col'>
                             <img
                                 className='personal-image quick-learner'
-                                src='https://www.napnameplates.com/wp-content/uploads/vfb/2019/11/Books-free-open-book-clipart-public-domain-clip-art-2.png'
+                                src={bookImage}
                                 alt='Quick Learner'
                             />
                             <h4>Quick Learner</h4>
@@ -384,7 +402,7 @@ const Skills = () => {
                         <div class='col'>
                             <img
                                 className='personal-image communication'
-                                src='https://www.alzsd.org/wp-content/uploads/2018/07/Communication-2.png'
+                                src={commImage}
                                 alt='Communication'
                             />
                             <h4>Communication</h4>

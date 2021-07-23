@@ -39,53 +39,47 @@
 
 /*********************** MENU LINKS **********************/
 
-/* COLOR OF MENU LINKS */
-.nav-link, .navbar-brand{
-  color: #fff !important;
+.nav-link {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white !important;
 }
 
-.nav-link {
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 20px;
+.nav-link:hover {
+  color: black !important;
 }
 
 .navbar-nav {
-  margin-right: 100px;
-}
-
-.navbar-brand {
-  margin-left: 100px;
+  margin: auto;
 }
 
 /************ Header *************/
 
 .main-info {
   text-align: center;
-  background: #FC466B;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 100vh;
-max-height: 879px;/*665*/
+  background: #FC466B; 
+background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B); 
+background: linear-gradient(to left, #3F5EFB, #FC466B); 
 }
-
+/*
 .banner {
   background-color: black;
   opacity: .8;
   width: 55%;
-  margin: auto;
   border-radius: 10px;
   padding-bottom: 10px;
   color: white;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .avatar-image {
-  height: 350px;
+  width: 251px;
   padding-top: 50px;
-  padding-bottom: 20px;
 }
 
 .my-name {
@@ -103,29 +97,32 @@ max-height: 879px;/*665*/
 
 .banner hr {
   border: 1px solid white;
-}
-
-.banner p {
-  font-size: 20px;
+  background-color: white;
 }
 
 .btn.btn-danger {
-  width: 150px;
-  height: 50px;
+  width: 130px;
+  height: 45px;
   font-size: 20px;
-}
+}*/
+
 /*********** NAVBAR COLOR*************/
 
 .navbar {
-  background: #FC466B;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FC466B;
+background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);
+background: linear-gradient(to left, #3F5EFB, #FC466B);
 }
 
 /******************** About Me Page*********************/
 
-.card {
-  width: 300px;
+.about-page {
+  background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3F5EFB, #FC466B);
+}
+/*.card {
+  width: 250px;
   margin-top: 15px;
 }
 
@@ -134,34 +131,38 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .soccer-img {
-  width: 550px;
+  width: 410px;
   margin-top: 15px;
 }
 
 .text-box {
-  margin-top: 15px;
+  margin-top: 10px;
+  color: white;
 }
 
 .text-box h1 {
-  text-align: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px !important;
+  border-bottom: 2px solid white;
+  width: 200px;
+  margin: auto;
 }
 
 .garden-img {
-  width: 550px;/*475*/
+  width: 410px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 3px;
 }
 
 .rit-logo {
-  width: 280px;
-  
+  width: 225px;
+  margin-top: 25px;
+  margin-left: 15px;
 }
 
-.text-box p {
-  font-size: 20px;
-}
-
+.figure-text {
+  color: white;
+  font-size: 12px;
+}*/
 /********************* Skills Page ***********************/
 
 .skills-title {
@@ -169,7 +170,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
   background-color: black;
   color: white;
   opacity: .8;
-  width: 700px;
+  width: 500px;
   margin: auto;
   height: 100px;
   border-radius: 20px;
@@ -184,7 +185,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .skill-image {
-  width: 200px;
+  width: 160px;
   padding-bottom: 10px;
 }
 
@@ -193,14 +194,18 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
   padding-bottom: 30px;
 }
 
+.star:hover {
+  transform: scale(1.25);
+}
+
 .col {
   text-align: center;
   vertical-align: center;
 }
 
 .python {
-  width: 250px;
-  padding-top: 62px;
+  width: 180px;
+  padding-top: 61px;
 }
 
 .java {
@@ -208,7 +213,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .js {
-  padding-top: 10px;
+  padding-top: 14px;
 }
 
 .elements {
@@ -216,8 +221,8 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 }
 
 .html {
-  width: 120px;
-  padding-top: 7px;
+  width: 100px;
+  padding-top: 4px;
 }
 
 .python-skill {
@@ -233,7 +238,6 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
   background: #FC466B;
 background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);
 background: linear-gradient(to left, #3F5EFB, #FC466B);
-height: 1300px;
 }
 
 .all-skills {
@@ -241,33 +245,34 @@ height: 1300px;
   background-size: 1400px 800px;
   border-radius: 50px;
   border: 3px solid black;
-  width: 1200px;
+  width: 1100px;
   margin: auto;
 }
 
 .skill-image.css {
-  width: 100px;
+  width: 70px;
+  padding-top: 16px;
 }
 
 .skill-image.react {
-  width: 250px;
+  width: 170px;
 }
 
 .skill-image.react {
-  padding-top: 21px;
+  padding-top: 35px;
 }
 
 .skill-image.sql {
-  padding-top: 32px;
+  padding-top: 31px;
 }
 
 .skill-image.c {
-  width: 120px;
+  width: 100px;
   padding-top: 15px;
 }
 
 .skill-image.ide {
-  width: 170px;
+  width: 150px;
   padding-bottom: 0;
   padding-top: 0;
   margin-top: 0;
@@ -278,11 +283,18 @@ height: 1300px;
 }
 
 .skill-image.git {
-  padding-top: 53px;
+  padding-top: 62px;
+  width: 140px;
 }
 
 .skill-image.postgres {
   padding-top: 42px;
+  width: 170px;
+}
+
+.skill-image.bootstrap {
+  width: 140px;
+  padding-top: 23px;
 }
 
 .personal-skills-title {
@@ -290,7 +302,7 @@ height: 1300px;
   background-color: black;
   color: white;
   opacity: .8;
-  width: 700px;
+  width: 500px;
   margin: auto;
   height: 100px;
   border-radius: 20px;
@@ -304,8 +316,12 @@ height: 1300px;
   background-size: 1400px 800px;
   border-radius: 50px;
   border: 3px solid black;
-  width: 1200px;
+  width: 1100px;
   margin: auto;
+}
+
+.personal-skills-container {
+  padding-bottom: 50px;
 }
 
 .personal-skills {
@@ -313,22 +329,26 @@ height: 1300px;
 }
 
 .personal-image {
-  width: 100px;
+  width: 80px;
   padding-top: 10px;
 }
 
 .personal-image.quick-learner {
-  width: 150px;
+  width: 140px;
   padding-top: 66px;
 }
 
 .personal-image.problem-solving {
-  padding-top: 20px;
+  padding-top: 38px;
 }
 
 .personal-image.communication {
-  width: 138px;
-  margin-top: 33px;
+  width: 128px;
+  margin-top: 34px;
+}
+
+.personal-image.leadership {
+  padding-top: 31px;
 }
 
 /***************************Project Page**************************/
@@ -337,5 +357,183 @@ height: 1300px;
   background: #FC466B;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #3F5EFB, #FC466B);
-height: 800px;
 }
+
+/*.projects-title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  opacity: .8;
+  width: 500px;
+  margin: auto;
+  height: 100px;
+  border-radius: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  border: 3px solid #6495ED;
+}
+
+.projects-header {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.project-pic {
+  width: 600px;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-pic.lower {
+  margin-top: 20px;
+}
+
+.video-js {
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid black;
+}
+
+.project-video {
+  width: 600px;
+}
+
+.project-headings {
+  color: white
+}
+
+.project-headings.lower {
+  margin-top: 80px;
+}
+
+.project-descriptions {
+  color: white;
+  text-align: center;
+  width: 600px;
+  border: 2px solid white;
+  margin-top: 20px !important;
+  padding-top: 5px;
+  border-radius: 20px;
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 15px;
+}
+
+.project-descriptions.last {
+  margin-bottom: 50px;
+}
+
+.refactoring-separator {
+  width: 300px;
+  color: white;
+  margin: auto;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}*/
+
+/****************************** Contact Page****************************/
+.contact-page {
+  background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3F5EFB, #FC466B);
+/*height: 697px;*/
+}
+
+/*.contact-title {
+  color: white;
+  text-align: center;
+}
+
+.contact-form {
+  text-align: center;
+  margin: auto;
+}
+
+.input-row {
+  width: 500px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  height: 200px;
+  border: 2px solid #2F4F4F;
+}
+
+.input-row.text {
+  height: 35px;
+}
+
+.send-button {
+  width: 125px;
+  background-color: rgb(238, 58, 58);
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 59px;
+}
+
+.contact-title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  opacity: .8;
+  width: 500px;
+  margin: auto;
+  height: 100px;
+  border-radius: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  border: 3px solid #6495ED;
+}
+
+.contact-header {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.contact-image {
+  width: 200px;
+}
+
+.contact-background {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.contact-image-text.top {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.contact-image.top {
+  padding-top: 10px;
+}
+
+.contact-info-text {
+  color: white;
+  width: 600px;
+  margin: auto;
+}
+
+.modal-title {
+  margin: auto;
+}
+
+.connect-button {
+  width: 125px;
+  background-color: rgb(113, 115, 121);
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 59px;
+}*/
