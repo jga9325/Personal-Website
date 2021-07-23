@@ -94,7 +94,7 @@ const About = () => {
 
         cardBody: {
             borderTop: '3px solid black'
-        },
+        }
     }
 
     return (

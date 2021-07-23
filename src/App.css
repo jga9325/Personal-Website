@@ -165,7 +165,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
 }*/
 /********************* Skills Page ***********************/
 
-.skills-title {
+/*.skills-title {
   text-align: center;
   background-color: black;
   color: white;
@@ -193,7 +193,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
   width: 50px;
   padding-bottom: 30px;
 }
-
+*/
 .star:hover {
   transform: scale(1.25);
 }
@@ -202,7 +202,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
   text-align: center;
   vertical-align: center;
 }
-
+/*
 .python {
   width: 180px;
   padding-top: 61px;
@@ -238,8 +238,8 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
   background: #FC466B;
 background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);
 background: linear-gradient(to left, #3F5EFB, #FC466B);
-}
-
+}*/
+/*
 .all-skills {
   background-image: url('https://www.fbcruss.org/wp-content/uploads/2015/05/white-abstract-wallpapers-desktop-background.jpg');
   background-size: 1400px 800px;
@@ -350,7 +350,7 @@ background: linear-gradient(to left, #3F5EFB, #FC466B);
 .personal-image.leadership {
   padding-top: 31px;
 }
-
+*/
 /***************************Project Page**************************/
 
 .project-page {
