@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import websiteImage from '../Portfolio Website Picture.jpg';
+import websiteImage from '../New Portfolio Website Picture.jpg';
 import checkersVideo from '../Compressed Checkers Video.mp4';
 import checkersThumbnail from '../Final Checkers Thumbnail.jpg';
 import laserVideo from '../Compressed Bank Laser Game.mp4';
