@@ -29,7 +29,7 @@ const About = () => {
             border: '3px solid black',
             marginLeft: 'auto',
             marginRight: 'auto',
-            height: 'auto'
+            height: '520px'
         },
 
         cardTitle: {
