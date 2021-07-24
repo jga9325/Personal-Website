@@ -28,8 +28,11 @@ const About = () => {
             marginTop: '10px',
             border: '3px solid black',
             marginLeft: 'auto',
-            marginRight: 'auto',
-            height: '520px'
+            marginRight: 'auto'
+        },
+
+        cardImage: {
+            width: '100%'
         },
 
         cardTitle: {
@@ -198,6 +201,7 @@ const About = () => {
                                 className="card-image"
                                 src={image}
                                 alt="photo of me"
+                                style={styles.cardImage}
                             />
                             <div class='card-body'>
                                 <h4 class='card-title' style={styles.cardTitle}>Jacob Auger</h4>

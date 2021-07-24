@@ -113,7 +113,7 @@ const Projects = () => {
 
         projectVideoMobile: {
             width: '95%',
-            border: '2px solid black'
+            /*border: '2px solid black'*/
           },
 
         pokerVideo: {
@@ -123,7 +123,7 @@ const Projects = () => {
 
         pokerVideoMobile: {
             width: '95%',
-            border: '2px solid black'
+            /*border: '2px solid black'*/
         },
           
         projectHeadings: {
