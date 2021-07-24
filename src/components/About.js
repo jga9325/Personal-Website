@@ -28,7 +28,8 @@ const About = () => {
             marginTop: '10px',
             border: '3px solid black',
             marginLeft: 'auto',
-            marginRight: 'auto'
+            marginRight: 'auto',
+            height: 'auto'
         },
 
         cardTitle: {
