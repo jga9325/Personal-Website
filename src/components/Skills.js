@@ -154,7 +154,7 @@ const Skills = () => {
           
           allSkillsMobile: {
             backgroundImage: "url('https://www.fbcruss.org/wp-content/uploads/2015/05/white-abstract-wallpapers-desktop-background.jpg')",
-            backgroundSize: '1400px 800px',
+            backgroundSize: '1000px 1300px',
             borderRadius: '40px',
             border: '3px solid black',
             width: '95%',
