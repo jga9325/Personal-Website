@@ -297,7 +297,7 @@ const Projects = () => {
                                 that I organized meetings and coordinated roles for team members. I also created the functionality for
                                 submitting a turn, receiving hints, making single-space moves and jump moves, undoing moves, and creating king pieces. 
                                 I used Java for most of the project along with Spark to create REST API's and Maven to 
-                                buuld and execute the project. The main takeaways from this project were gaining experience
+                                build and execute the project. The main takeaways from this project were gaining experience
                                 working on a development team, improving my Java skills, and learning more about Spark and Maven. <br></br>The video above gives 
                                 a brief demonstration of the application.
                             </p>
